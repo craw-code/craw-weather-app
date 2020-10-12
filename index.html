@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>craw weather app v6</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/16005b5601.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <form class="searchForm" id="searchForm">
+          <input
+            type="text"
+            id="citySearch"
+            placeholder="Enter a city"
+            auto-focus="off"
+            class="citySearch"
+          />
+        </form>
+        <button type="submit" id="submitButton" class="btn btn-primary">
+          <i class="fas fa-search"></i>
+        </button>
+        <div class="cityDateTime col">
+          <h1 class="city" id="city"></h1>
+          <h2 class="dayTime" id="dayTime"></h2>
+        </div>
+        <div>
+          <button id="current-location-button" class="btn btn-primary">
+            <i class="fas fa-location-arrow"></i>
+          </button>
+        </div>
+      </div>
+      <div class="currentCity">
+        <div class="cityCircle">
+          <i class="fas fa-cloud-sun"></i>
+          <h3><span class="currentTemp" id="currentTemp"></span>°C</h3>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Conditions:
+              <span
+                class="currentWeather"
+                class="description"
+                id="description"
+              ></span>
+            </li>
+            <li>
+              Wind speed:
+              <span class="currentWeather" class="wind" id="wind"></span> mph
+            </li>
+            <li>
+              Humidity:
+              <span class="currentWeather" class="humidity" id="humidity"></span
+              >%
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="fiveDays">
+        <div class="row">
+          <div class="col">
+            <i class="fas fa-cloud"></i> <br />
+            Friday <br />
+            18°C
+          </div>
+          <div class="col">
+            <i class="fas fa-cloud"></i> <br />
+            Saturday <br />
+            17°C
+          </div>
+          <div class="col">
+            <i class="fas fa-sun"></i> <br />
+            Sunday <br />
+            21°C
+          </div>
+          <div class="col">
+            <i class="fas fa-sun"></i> <br />
+            Monday <br />
+            23°C
+          </div>
+          <div class="col">
+            <i class="fas fa-cloud"></i> <br />
+            Tuesday <br />
+            24°C
+          </div>
+        </div>
+      </div>
+      <p id="codedBy">
+        Coded by
+        <a href="https://www.linkedin.com/in/caroline-raw/" target="_self"
+          >Caroline Raw</a
+        >
+      </p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
