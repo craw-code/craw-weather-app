@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>craw weather app v6</title>
+    <title>craw weather app v7</title>
 
     <link
       rel="stylesheet"
@@ -33,18 +33,18 @@
             auto-focus="off"
             class="citySearch"
           />
+          <button type="submit" id="submitButton" class="btn btn-primary">
+            <i class="fas fa-search"></i>
+          </button>
         </form>
-        <button type="submit" id="submitButton" class="btn btn-primary">
-          <i class="fas fa-search"></i>
+        <button id="current-location-button" class="btn btn-primary">
+          <i class="fas fa-location-arrow"></i>
         </button>
+      </div>
+      <div class="row">
         <div class="cityDateTime col">
           <h1 class="city" id="city"></h1>
           <h2 class="dayTime" id="dayTime"></h2>
-        </div>
-        <div>
-          <button id="current-location-button" class="btn btn-primary">
-            <i class="fas fa-location-arrow"></i>
-          </button>
         </div>
       </div>
       <div class="currentCity">
