@@ -25,13 +25,11 @@ ul {
 .btn-primary {
   background-color: #6c87b7;
   border: 1px solid white;
-  border-radius: 20px;
-  margin-top: 20px;
+  margin-left: 15px;
 }
 
 .btn-primary:hover {
   background-color: #b4c3dd;
-  border: 1px solid white;
 }
 
 .cityCircle {
@@ -53,18 +51,13 @@ ul {
 }
 
 #citySearch {
-  background-color: white;
   border: 1px solid #6c87b7;
-  border-radius: 20px;
-  display: block;
+  border-radius: 0.25rem;
   font-family: "Heebo", sans-serif;
   font-size: 18px;
   margin-left: 15px;
-  margin-right: 5px;
   margin-top: 20px;
-  padding: 6px 20px;
-  text-align: left;
-  width: 620px;
+  width: 350px;
 }
 
 #codedBy {
@@ -100,6 +93,17 @@ ul {
   margin-top: 20px;
 }
 
+#current-location-button {
+  background-color: #6c87b7;
+  border: 1px solid white;
+  margin-left: 15px;
+  margin-top: 16.5px;
+}
+
+#current-location-button:hover {
+  background-color: #b4c3dd;
+}
+
 .currentTemp {
   font-size: 40px;
   font-weight: bold;
@@ -109,27 +113,6 @@ ul {
 
 .currentWeather {
   font-weight: bold;
-}
-
-#current-location-button {
-  background-color: #6c87b7;
-  border: 1px solid white;
-  border-radius: 20px;
-  margin-right: 12px;
-  margin-top: 5px;
-}
-
-#current-location-button:hover {
-  background-color: #b4c3dd;
-}
-
-.fa-location-arrow {
-  font-size: 20px;
-  margin-top: 3px;
-}
-
-.fa-search {
-  font-size: 20px;
 }
 
 .fiveDays {
