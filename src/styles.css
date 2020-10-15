@@ -3,12 +3,12 @@ a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 ul {
@@ -16,17 +16,17 @@ ul {
   border-radius: 0.25rem;
   color: white;
   display: block;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 1.875rem;
+  line-height: 3.125rem;
   list-style-type: none;
   margin: 0 auto;
-  padding-right: 40px;
+  padding-right: 2.5rem;
 }
 
 .btn-primary {
   background-color: #6c87b7;
-  border: 1px solid white;
-  margin-left: 15px;
+  border: 0.063rem solid white;
+  margin-left: 0.938rem;
 }
 
 .btn-primary:hover {
@@ -35,46 +35,46 @@ ul {
 
 .cityCircle {
   background: rgba(0, 0, 0, 0.6);
-  border: 5px solid white;
+  border: 0.313rem solid white;
   border-radius: 50%;
   color: white;
-  height: 230px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  height: 14.375rem;
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
   text-align: center;
-  width: 230px;
+  width: 14.375rem;
 }
 
 .cityDateTime {
   color: black;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 1.875rem;
+  margin-top: 1.875rem;
 }
 
 #citySearch {
-  border: 1px solid #6c87b7;
+  border: 0.063rem solid #6c87b7;
   border-radius: 0.25rem;
   font-family: "Heebo", sans-serif;
-  font-size: 18px;
-  margin-left: 15px;
-  margin-top: 20px;
-  width: 350px;
+  font-size: 1.125rem;
+  margin-left: 0.938rem;
+  margin-top: 1.25rem;
+  width: 21.875rem;
 }
 
 #codedBy {
-  font-size: 15px;
+  font-size: 0.938rem;
   text-align: center;
 }
 
 .container {
   background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
-  border: 1px solid #6c87b7;
+  border: 0.063rem solid #6c87b7;
   border-radius: 0.25rem;
   display: block;
   font-family: "Heebo", sans-serif;
   margin: 0 auto;
-  margin-top: 100px;
-  width: 700px;
+  margin-top: 6.25rem;
+  max-width: 43.75rem;
 }
 
 .currentCity {
@@ -89,16 +89,16 @@ ul {
 
 .currentCity .fa-cloud-sun {
   color: white;
-  font-size: 90px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  font-size: 5.625rem;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 #current-location-button {
   background-color: #6c87b7;
-  border: 1px solid white;
-  margin-left: 15px;
-  margin-top: 16.5px;
+  border: 0.063rem solid white;
+  margin-left: 0.938rem;
+  margin-top: 1.031rem;
 }
 
 #current-location-button:hover {
@@ -106,18 +106,18 @@ ul {
 }
 
 .currentTemp {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 5px;
-  margin-top: 10px;
+  margin-bottom: 0.313rem;
+  margin-top: 0.625rem;
 }
 
 .fiveDays {
   color: white;
-  font-size: 30px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 30px;
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 1.875rem;
   text-align: center;
 }
