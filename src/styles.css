@@ -55,7 +55,7 @@ ul {
   margin-top: 1.875rem;
 }
 
-#citySearch {
+.citySearch {
   border: 0.063rem solid #6c87b7;
   border-radius: 0.25rem;
   font-size: 1.125rem;
