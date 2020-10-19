@@ -15,6 +15,11 @@ h2 {
   font-size: 1.5rem;
 }
 
+img {
+  margin: 0 auto;
+  padding: 0.938rem;
+}
+
 ul {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 0.25rem;
@@ -91,13 +96,6 @@ ul {
 
 .currentCity .currentTemp {
   font-size: 3.125rem;
-}
-
-.currentCity .fa-cloud-sun {
-  color: white;
-  font-size: 5.625rem;
-  margin-bottom: 1.8rem;
-  margin-top: 1.7rem;
 }
 
 #current-location-button {
