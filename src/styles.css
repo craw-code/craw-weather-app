@@ -53,6 +53,16 @@ ul {
   width: 14.375rem;
 }
 
+.cityCircle .active {
+  color: white;
+  cursor: default;
+  text-decoration: underline;
+}
+
+.cityCircle .active:hover {
+  text-decoration: none;
+}
+
 .cityDateTime {
   color: black;
   margin-bottom: 1.875rem;
@@ -121,5 +131,4 @@ ul {
 
 #units {
   font-size: 1.4rem;
-  text-decoration: underline;
 }
