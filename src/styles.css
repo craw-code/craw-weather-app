@@ -16,8 +16,7 @@ h2 {
 }
 
 img {
-  margin: 0 auto;
-  padding: 0.938rem;
+  align-items: left;
 }
 
 ul {
@@ -96,6 +95,7 @@ ul {
 
 .currentCity .currentTemp {
   font-size: 3.125rem;
+  padding: 0;
 }
 
 #current-location-button {
@@ -117,4 +117,9 @@ ul {
   margin-right: 0.625rem;
   margin-top: 1.875rem;
   text-align: center;
+}
+
+#units {
+  font-size: 1.4rem;
+  text-decoration: underline;
 }
